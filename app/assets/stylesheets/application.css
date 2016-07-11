@@ -1,0 +1,160 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
+
+body{
+  font-family: 'Oswald', sans-serif;
+  max-width: 100em;
+  margin:auto;
+  padding:3em 3em;
+  background-image: url(http://eskipaper.com/images/paisley-wallpaper-8.jpg);
+  color: red;
+  }
+title{
+  font-size: 3;
+}
+nav a {
+  border: 1px solid red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+  font-size: 1.25em;
+}
+
+nav a:hover {
+  background-color: red;
+  color: black;
+    border: 1px solid red
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+}
+
+a:hover {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: .25em;
+  color: red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+  border: 2px solid red;
+}
+label {
+  margin: .25em;
+  color: red;
+  padding: .1em;
+  background-color: black;
+  border: 1px solid red;
+}
+h1 {
+  font-inherit;
+  color: red;
+  font-size: 3em;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+  border: 3px solid red;
+  letter-spacing:-.005em;
+  text-decoration:none;
+  border-bottom:3px solid red;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+  border: 2px solid red;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+  border: 2px solid red;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+  border: 2px solid red;
+}
+
+a {
+  font-size: .75em;
+  color: red;
+  margin: .5em;
+  padding: .5em;
+  background-color: black;
+}
+
+input {
+  display: block;
+  margin: 5px 0 20px 0;
+  padding: 10px;
+  border: solid 3px red;
+  width: 500px;
+  background:  black;
+  color: red;
+  font-size: 1em;
+}
+
+input[type=submit],
+a.delete{
+  width: auto;
+  padding: 9px 15px;
+  background-color: black;
+  border: 5;
+  font-size: 14px;
+  color: red;
+}
+
+input.delete, a.delete {
+  background-color: red;
+}
+
+
+.artist-photo {
+  width: 400px;
+}
+
+span.nationality {
+  font-size: .5em;
+}
+
+.alert{
+  color:#f00;
+}
+.notice{
+  color:#00f;
+}
